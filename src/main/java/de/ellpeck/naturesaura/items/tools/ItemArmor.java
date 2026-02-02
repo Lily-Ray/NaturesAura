@@ -44,11 +44,18 @@ public class ItemArmor extends ArmorItem implements IModItem {
     }
 
     public static boolean isFullSetEquipped(LivingEntity entity, ModArmorMaterial material) {
-        var set = ItemArmor.SETS.computeIfAbsent(material, m -> ModRegistry.ALL_ITEMS.stream()
-            .filter(i -> i instanceof ItemArmor a && a.material == material)
-            .map(i -> (ItemArmor) i)
-            .sorted(Comparator.comparingInt(i -> i.getEquipmentSlot().ordinal()))
-            .toArray(ItemArmor[]::new));
+        var set = ItemArmor.SETS.computeIfAbsent(material, m -> {
+            var computed = ModRegistry.ALL_ITEMS.stream()
+                    .filter(i -> i instanceof ItemArmor a && a.material == material)
+                    .map(i -> (ItemArmor) i)
+                    .sorted(Comparator.comparingInt(i -> i.getEquipmentSlot().ordinal()))
+                    .toArray(ItemArmor[]::new);
+            return computed.length < 4 ? null : computed;
+        });
+        if (set == null) {
+            NaturesAura.LOGGER.warn("Tried to access full armor set of type {} but it was not found. Maybe it was accessed too early?", material.name());
+            return false;
+        }
         for (var i = 0; i < 4; i++) {
             var slot = EquipmentSlot.values()[i + 2];
             var stack = entity.getItemBySlot(slot);
