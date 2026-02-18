@@ -1,0 +1,17 @@
+{
+    "name": "シュルカーの眼",
+    "icon": "naturesaura:end_city_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)エンダーアイ$()や$(l:items/fortress_finder)ブレイズの眼$()の能力を熟知した魔法植物学者たちは、各ディメンションに対応する探索用の「眼」の最後の一つを完成させた。この$(item)シュルカーの眼$()は、通常世界やネザーにおけるそれらと同様に、空中に放り投げることで最も近くにある$(thing)エンドシティ$()の場所を指し示してくれる。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)シュルカーの眼$()の作成",
+            "recipe": "naturesaura:end_city_finder"
+        }
+    ]
+}

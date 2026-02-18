@@ -1,0 +1,22 @@
+{
+    "name": "創造の触媒",
+    "icon": "naturesaura:generator_limit_remover",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:offering",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:creating/on_generating)霊気の生成について$()の項で述べた通り、大半の$(thing)創造装置$()には、一定の水準を超えて$(2)霊気$()を生み出す能力が欠けている。だが、この$(item)創造の触媒$()があれば、その問題は容易に解決する。創造装置の真下にこれを設置するだけで、課されていた制限は取り払われ、先に述べた限界を遥かに超える$(2)霊気$()を生成できるようになるのだ。$(br)しかも、これによる対価や代償は一切必要ない。"
+        },
+        {
+            "type": "text",
+            "text": "制限なく$(2)霊気$()を生成し続けることは、多くの魔法植物学者にとって心躍る展望だろう。だが、近年の研究により、過剰な生成は$(l:intro/aura#fizzling)霊気の霧散$()を引き起こし、ほとんど無意味に終わってしまうことも判明している。この事実は常に念頭に置き、$(l:devices/aura_detector)霊気計測器$()のような装置を用いて、霧散を防ぐ対策を講じるのが賢明だ。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:generator_limit_remover",
+            "text": "各種の$(item)証$()を用いた$(item)創造の触媒$()の作成"
+        }
+    ]
+}

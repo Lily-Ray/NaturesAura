@@ -1,0 +1,40 @@
+{
+    "name": "魔法植物学者の道具",
+    "icon": "naturesaura:infused_iron_pickaxe",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:using/altar)霊鉄$()が本来備えている力を利用することで、基礎素材である$(item)鉄$()と同等の特性を持ちながら、それだけでは到底得られない付加機能を備えた道具を作り出すことができる。$(br)続くページでは、これら道具の作成方法と、その特殊な機能の使用法について解説する。"
+        },
+        {
+            "type": "text",
+            "text": "さらに、$(l:items/aura_cache)霊気貯蔵器$()を携行していれば、内部に蓄えられた$(2)霊気$()を消費してツールの耐久値を再生させることができ、その寿命を劇的に延ばすことが可能だ。これを行うには、ただその場に立ち止まってスニークするだけでよい。手に持っている道具が、徐々に再充填されていくだろう。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)魔法植物学者のツルハシ$()を用いてブロックを右クリックすると、そのブロックに$(thing)苔むした$()バリエーションが存在する場合に限り、その姿を変化させることができる。",
+            "recipe": "naturesaura:infused_pickaxe"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)魔法植物学者の手斧$()は、$(thing)葉$()を取り除く作業において非常に優れており、通常の道具よりもはるかに素早く伐り払うことができる。",
+            "recipe": "naturesaura:infused_axe"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)魔法植物学者のシャベル$()は、右クリックするだけで休耕地に$(thing)草$()を芽吹かせる能力を持つ。さらに、草ブロックに対して使用すれば、通常よりも広範囲に$(thing)道$()を作ることが可能だ。",
+            "recipe": "naturesaura:infused_shovel"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)魔法植物学者のクワ$()は、古来より伝わる手法で農夫が多種多様な$(thing)種$()を入手するのを助けてくれる。草ブロックや土に対してこれを使用するだけで、様々な種を見つけ出すことができるのだ。",
+            "recipe": "naturesaura:infused_hoe"
+        }, {
+            "type": "crafting",
+            "text": "$(item)魔法植物学者の剣$()は、魔物に対処する優れた手段となる。この剣で切りつけられたモブは数秒間$(thing)移動速度が低下$()し、格好の標的となるだろう。",
+            "recipe": "naturesaura:infused_sword"
+        }
+    ]
+}

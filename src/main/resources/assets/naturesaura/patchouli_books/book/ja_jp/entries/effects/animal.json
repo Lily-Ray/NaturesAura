@@ -1,0 +1,22 @@
+{
+    "name": "多産の増進",
+    "icon": "minecraft:egg",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "領域内の$(2)霊気$()の水準が、$(l:items/eye)環境の眼$()の目盛りの3分の2を越えるほどに高まり、かつ周囲に$(l:effects/effect_powder)豊穣の粉末$()が散布されている場合、その地の$(item)動物$()たちに変容が現れ始める。牛や羊、豚といった生物が、誰の促しもなく時折$(thing)番い始める$()のだ。それはあたかも、霊気の力に当てられて恋に落ちたかのようであり、その過程で領域内の$(2)霊気$()はいくらか消費されていく。"
+
+        },
+        {
+            "type": "text",
+            "text": "さらに、地上に落とされた$(item)卵$()をそのまま放置しておくと、投げずとも自然に$(thing)孵化$()して雛が生まれるようになる。$(p)なお、これら一連の現象は、領域内の動物が一定数に達すると停止する。これは、過剰な繁殖による生態系の崩壊を防ぐための自浄作用と言えるだろう。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:animal_powder",
+            "text": "$(l:effects/effect_powder)豊穣の霊粉$()の作成"
+        }
+    ]
+}

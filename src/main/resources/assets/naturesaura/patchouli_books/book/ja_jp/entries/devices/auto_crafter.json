@@ -1,0 +1,27 @@
+{
+    "name": "自動構築機",
+    "icon": "naturesaura:auto_crafter",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "植物学者の歩みにおいて、$(item)作業台$()を用いたアイテムの$(thing)構築$()は避けて通れぬ道である。しかし、常習的に用いる製法ともなれば、その工程は時として退屈で、いたずらに時間を浪費するものとなりかねない。そこで、この$(item)自動構築機$()が真価を発揮する。この装置は誰の助けを借りることなく、通常の作業台で作成可能なあらゆる品を独力で組み上げるのだ。"
+        },
+        {
+            "type": "text",
+            "text": "これを実現するには、まず次ページに示す$(thing)構造物$()を築き、その中心に$(item)自動構築機$()を据える必要がある。設置した際、矢印の向きが$(item)作業台$()の最も上のスロット、すなわち$(thing)レシピの最上段$()を示す。必要な素材を通常通りの配置で$(item)いにしえの原木$()の上に投げ入れれば、数秒の後、完成した品が$(item)自動構築機$()の$(thing)底部$()から放たれるだろう。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:auto_crafter",
+            "text": "自動構築に必要な構造物の構築"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)自動構築機$()の作成"
+,
+            "recipe": "naturesaura:auto_crafter"
+        }
+    ]
+}

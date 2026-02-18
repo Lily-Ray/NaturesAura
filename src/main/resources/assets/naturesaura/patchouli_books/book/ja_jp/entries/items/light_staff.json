@@ -1,0 +1,21 @@
+{
+    "name": "バルドルの杖",
+    "icon": "naturesaura:light_staff",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "高天の世界に住まう神々は、古来より世界を$(thing)光$()で照らす力を含む、多大なる権能を保持してきた。次ページに示す手法で神聖な素材を組み合わせれば、$(thing)光線$()を放つ杖を作り出すことができる。この光線がブロックに当たると、あたかも$(item)グロウストーン$()を設置したかのように、周囲を明るく照らし出すのだ。"
+        },
+        {
+            "type": "text",
+            "text": "さらに、放たれた光線がいかなる生ける者に命中した場合も、それを$(thing)炎$()に包み込む力がある。$(p)この光線を放つには、少量の$(2)霊気$()を携行していなければならない。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)バルドルの杖$()の作成",
+            "recipe": "naturesaura:light_staff"
+        }
+    ]
+}

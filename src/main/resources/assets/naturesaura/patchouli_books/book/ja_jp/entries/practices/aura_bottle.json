@@ -1,0 +1,34 @@
+{
+    "name": "霊気の瓶詰め",
+    "icon": "naturesaura:aura_bottle[naturesaura:aura_bottle_data={'aura_type':'naturesaura:overworld'}]",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:gold_leaf",
+    "turnin": "naturesaura:aura_bottle_overworld",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)霊気$()とそれが世界に存在する様は、長きにわたり研究者たちを悩ませる難問であった。かつて彼らは、$(item)ガラス瓶$()を用いて$(2)霊気$()を採取し、肉眼で視認できるようにすることで、より詳細な分析を行っていた。しかし、ほどなくして無知な市民たちからの苦情が彼らを困らせることになる。「他の科学者たちがすでに瓶を活用している。これは問題を引き起こすだろう」と彼らは主張したのだ。"
+        },
+        {
+            "type": "crafting",
+            "text": "そこで研究者たちは、支離滅裂な野次に終止符を打つべく、$(item)コルク付きの瓶$()を考案した。これは従来の瓶と似て非なる道具であり、手に持って空気を右クリックするだけで、$(2)霊気$()を採取することに特化している。",
+            "recipe": "naturesaura:bottle_two_the_rebottling"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:aura_bottle[naturesaura:aura_bottle_data={'aura_type':'naturesaura:overworld'}]",
+            "link_recipe": true,
+            "text": "当然ながら、現在滞在している世界によって、採取される$(2)霊気$()の種類はわずかに異なる。例えば、通常世界であれば$(2)霊気$()は日の光の形で集められるが、ネザーの領域では亡霊の形として、そしてエンドの領域では過剰なまでに満ちた暗黒の形として採取されるのだ。"
+        },
+        {
+            "type": "text",
+            "text": "さらに、この手法による$(2)霊気$()の採取は、$(item)ディスペンサー$()を用いて容易に自動化できる。空の$(item)コルク付きの瓶$()を入れて起動すると、蓋が開いた状態で射出され、その過程で周囲の$(2)霊気$()が充填される。射出された瓶が再び$(item)ディスペンサー$()に吸い込まれることはないため、回収には$(item)ホッパー$()などの別の道具が必要となる。"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:vacuum_bottle",
+            "link_recipe": true,
+            "text": "最後に、一部の地域では$(2)霊気$()が深刻なまでに欠乏しており、$(l:items/eye)環境の眼$()で測定できる限界をはるかに下回っている。そうした場所の空気は、酸素すらもほぼ失われた状態にある。このような場所で$(item)コルク付きの瓶$()を使用すれば、その空気を瓶詰めにして、ほぼ完全な$(2)霊気の真空$()を捕縛することが可能だ。"
+        }
+    ]
+}

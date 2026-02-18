@@ -1,0 +1,17 @@
+{
+    "name": "真紅の繁茂",
+    "icon": "naturesaura:nether_grass",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:effects/plant_boost)植物の急成長$()の項で述べた通り、過剰な$(2)霊気$()は植物などの生命へと転移する。これと同様の現象は$(thing)ネザー$()においても観測可能だ。$(2)霊気$()の水準が十分に高まれば、その領域の$(item)ネザーラック$()の表面に$(item)草$()が芽吹き始めるのである。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:nether_grass_powder",
+            "text": "この効果は、$(l:effects/effect_powder)荒廃の霊粉$()を用いることで抑制できる。"
+        }
+    ]
+}

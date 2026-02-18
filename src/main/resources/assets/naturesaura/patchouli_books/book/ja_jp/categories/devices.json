@@ -1,0 +1,6 @@
+{
+    "name": "機巧の魔導装置",
+    "description": "ある種の機械は$(2)霊気$()の力を直接制御するのではなく、それを用いて作り出された品々を介し、他の装置では成し得ぬ独自の機能を実現する。この項では、そのような特殊な役割を担う装置や、精密な機械仕掛けについての知見を収めている。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/devices.png",
+    "sortnum": 30
+}

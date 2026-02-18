@@ -1,0 +1,29 @@
+{
+    "name": "輝きの樹木",
+    "icon": "naturesaura:gold_leaf",
+    "category": "naturesaura:practices",
+    "priority": true,
+    "turnin": "naturesaura:gold_leaf",
+    "pages": [
+        {
+            "type": "text",
+            "text": "長年にわたり、植物学者たちは$(2)霊気$()を宿す物質の魔法的特性を解明しようと試みてきた。その過程で、意外な、しかし共通する一つの主題が見出された。人間と$(2)霊気$()が相互に作用する際、$(item)金$()が常に何らかの役割を果たしているという点だ。"
+        },
+        {
+            "type": "spotlight",
+            "text": "その力の片鱗に触れるには、まず$(item)輝きの樹木$()を生み出さなければならない。この樹木からは、繊細ながらも強力な素材である$(item)金箔$()を収穫することができる。これを作成するには、まず$(item)輝きの繊維$()をいくつか作成し、それを樹冠（木の葉の部分）に設置するだけでよい。やがて時が経てば、その木に輝きがもたらされるだろう。",
+            "item": "naturesaura:gold_leaf",
+            "link_recipe": true
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)輝きの繊維$()の作成",
+            "recipe": "naturesaura:gold_fiber"
+        },
+        {
+            "type": "crafting",
+            "text": "収穫した$(item)金箔$()は、容易に押し潰して$(item)金輝粉$()にすることが可能だ。この粉は地面に設置することができ、$(l:practices/tree_ritual)森林の儀式$()を執り行う上で不可欠な役割を果たす。",
+            "recipe": "naturesaura:gold_powder"
+        }
+    ]
+}

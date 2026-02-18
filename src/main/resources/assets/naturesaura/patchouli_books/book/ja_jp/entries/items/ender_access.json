@@ -1,0 +1,17 @@
+{
+    "name": "エンダーの接眼レンズ",
+    "icon": "naturesaura:ender_access",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "簡潔に言えば、$(item)エンダーの接眼レンズ$()は携帯版の$(l:using/ender_crate)エンダークレート$()である。これと全く同じ手順で$(thing)エンダー名$()を付与した後、手に持って右クリックすることで、その場ですぐにストレージを開くことが可能だ。この際、$(l:items/aura_cache)霊気貯蔵器$()などから一定量の$(2)霊気$()が消費されることに留意してほしい。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)エンダーの接眼レンズ$()の作成",
+            "recipe": "naturesaura:ender_access"
+        }
+    ]
+}

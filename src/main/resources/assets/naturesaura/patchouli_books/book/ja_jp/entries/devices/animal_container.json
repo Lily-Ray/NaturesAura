@@ -1,0 +1,17 @@
+{
+    "name": "実体の凝視眼",
+    "icon": "naturesaura:animal_container",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:eye",
+    "pages": [
+        {
+            "type": "text",
+            "text": "畜産を営む者にとって、$(thing)動物$()たちが逃げ出さないよう狭い範囲に留めておきたいと願うのは、至極当然のことだろう。$(br)$(item)実体の凝視眼$()は、周囲に物理的な遮蔽物を置かずとも、範囲内の動物が外に出るのを防いでくれる。この拘束の$(thing)範囲$()は入力される$(thing)レッドストーン信号$()の強さによって決まり、信号が強いほど、より広大な結界を維持することが可能だ。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)実体の凝視眼$()の作成",
+            "recipe": "naturesaura:animal_container"
+        }
+    ]
+}

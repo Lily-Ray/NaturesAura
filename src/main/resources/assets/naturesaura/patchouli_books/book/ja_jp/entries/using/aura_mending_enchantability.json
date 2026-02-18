@@ -1,0 +1,17 @@
+{
+    "name": "自然の治癒",
+    "icon": "minecraft:enchanted_book",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_tools",
+    "flag": "mod:enchantability",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)霊気$()を用いて道具を修復できるのは素晴らしいことだが、魔法植物学者が凶悪な敵や危険な高所と対峙した際には、それだけでは不十分だ。そのような局面では、$(thing)己の身を癒やす$()能力こそが真に求められるだろう。"
+        },
+        {
+            "type": "text",
+            "text": "$(item)自然の修復$()のエンチャント本を入手し、$(item)エンダーチェスト$()のエンチャントスロットに挿入することで、$(item)自然の治癒$()の効果を得ることができる。この効果が有効な間、$(thing)スニーク$()を行うことでインベントリ内の容器から$(2)霊気$()が引き出され、自身の体力を徐々に回復させることが可能だ。"
+        }
+    ]
+}

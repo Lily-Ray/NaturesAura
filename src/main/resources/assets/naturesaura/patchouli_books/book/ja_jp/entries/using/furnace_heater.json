@@ -1,0 +1,17 @@
+{
+    "name": "外部式加熱機",
+    "icon": "naturesaura:furnace_heater",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "ある時、人は気づくことになる。$(item)かまど$()というものはあまりに遅く、効率的に運用するには資源を浪費しすぎるのだ、と。$(br)$(item)外部式加熱機$()は、隣接するいずれかの面にある$(item)かまど$()を加速させると同時に、あらゆる材料を精錬するのに必要な熱を供給する。注意点として、このプロセスで$(2)霊気$()を消費し続けた結果、環境中の霊気量が負の値にまで落ち込み、$(l:intro/aura)収穫逓減$()を引き起こす可能性がある。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(l:practices/tree_ritual)森林の儀式$()を用いた$(item)外部式加熱機$()の作成",
+            "recipe": "naturesaura:furnace_heater"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "不安定な噴発",
+    "icon": "minecraft:tnt",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "領域内の$(2)霊気$()が極限まで枯渇し、$(item)自然の腐朽$()がその破壊の限りを尽くしてもなお均衡が戻らぬ時、自然そのものが安定を失い、$(item)不安定な噴発$()という最悪の事態へと至る。地上広域において、$(thing)爆発$()が散発的に発生し始めるのだ。その威力や発生間隔は、不均衡の深刻さに呼応して激しさを増していく。"
+        }
+    ]
+}

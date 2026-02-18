@@ -1,0 +1,26 @@
+{
+    "name": "魔法植物学者の防具",
+    "icon": "naturesaura:infused_iron_chest",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:items/infused_iron_tools)道具$()に加えて、植物学者は防具——特に$(item)魔法植物学者の防具$()を身に纏うことで身を守ることができる。鉄の防具と同等の防御性能を備えているだけでなく、同種の道具と同じく、$(l:items/aura_cache)霊気貯蔵器$()を所持してスニークすることで、減少した耐久値を再充填できるのが特徴だ。さらに、この防具一式を同時に装備することで、強力な$(thing)セットボーナス$()が発動する。"
+        },
+        {
+            "type": "text",
+            "text": "防具を装備した状態でモブから攻撃を受けると、その相手に短時間の$(item)衰退$()効果が付与される。これはエンチャントの「棘の鎧」と同様に、攻撃者にダメージを与えるものだ。$(br)さらに、防具一式を装備した状態で$(l:items/shockwave_creator)激昂のアミュレット$()を使用すれば、その効果範囲内にいるすべてのモブに対しても、短時間の$(item)衰退$()効果を与えることができる。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:infused_helmet",
+            "recipe2": "naturesaura:infused_chest"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:infused_pants",
+            "recipe2": "naturesaura:infused_shoes"
+        }
+    ]
+}

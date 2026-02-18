@@ -1,0 +1,67 @@
+{
+    "name": "破砕の触媒",
+    "icon": "naturesaura:crushing_catalyst",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:using/altar)自然の祭壇$()は、特定のアイテムに$(2)霊気$()を注入するだけでなく、特定のアイテムを別の形状へと$(thing)破砕$()するためにも利用できる。$(br)これを行うには、$(item)破砕の触媒$()を作成し、祭壇の周囲にある4つの下層の$(item)黄金の石煉瓦$()のいずれかの上に設置した上で、通常通り祭壇に材料を置けばよい。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(l:practices/tree_ritual)森林の儀式$()を用いた$(item)破砕の触媒$()の作成",
+            "recipe": "naturesaura:crushing_catalyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)骨$()を破砕して$(item)骨粉$()を生成する",
+            "recipe": "naturesaura:bone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "サトウキビから$(item)砂糖$()を分離して収穫する",
+            "recipe": "naturesaura:sugar"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "ネザーの素材を破砕して$(item)ブレイズパウダー$()を精製する",
+            "recipe": "naturesaura:blaze"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)グロウストーン$()を破壊し、$(item)グロウストーンダスト$()を精製する",
+            "recipe": "naturesaura:glowstone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)丸石$()を破砕して$(item)砂$()を生成する",
+            "recipe": "naturesaura:sand"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)黄金の葉$()を破砕して$(item)金粉$()を精製する",
+            "recipe": "naturesaura:gold_powder"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)アメジストブロック$()を破砕して$(item)アメジストの欠片$()を生成する",
+            "recipe": "naturesaura:amethyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)固められた泥$()を破砕して$(item)泥$()へと戻す",
+            "recipe": "naturesaura:mud"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)ネザーウォートブロック$()を破砕して$(item)ネザーウォート$()を抽出する",
+            "recipe": "naturesaura:nether_wart_crushing"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)ソウルソイル$()を破砕して$(item)ソウルサンド$()へと変質させる",
+            "recipe": "naturesaura:soul_sand_crushing"
+        }
+    ]
+}

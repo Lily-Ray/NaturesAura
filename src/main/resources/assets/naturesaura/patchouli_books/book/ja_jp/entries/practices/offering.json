@@ -1,0 +1,63 @@
+{
+    "name": "神々への供儀",
+    "icon": "naturesaura:offering_table",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:infused_materials",
+    "turnin": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)霊鉄$()はそれ自体が十分な自然の力を宿しており、多種多様な用途に活用できる。しかし、より高度な機構を構築するには、さらに強力な金属が必要となる。そのために、そして他の多くの目的のために、この$(item)神々への供儀$()が必要不可欠となるのだ。$(br)古来より、神々は最も強大で慈悲深き存在であり、ゆえに人類が知り得る中で最強の金属をもその手に収めている。"
+        },
+        {
+            "type": "text",
+            "text": "神々を降臨させる場を築くには、次ページに示す通り$(item)供儀の台座$()を設置し、その周囲を花々で彩ればよい。供儀を始めるには、まず台座の鉢の中に捧げたいアイテムを好きなだけ入れ、その傍らに神々を呼び出すための触媒——多くの場合、$(item)喚起の霊魂$()——を投げ入れるのだ。$(br)運が良ければ、神々が求めた品々が空から降り注ぐだろう。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:offering_table",
+            "text": "$(item)神々への供儀$()の準備。使用する花の種類は問わない。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)供儀の台座$()の作成",
+            "recipe": "naturesaura:offering_table"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)喚起の霊魂$()の作成",
+            "recipe": "naturesaura:calling_spirit"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "神聖なエネルギーを注ぎ込まれた強力な金属、$(item)蒼天鋼$()を乞う。これこそが、神々の高潔なる力を宿した鋼である。",
+            "recipe": "naturesaura:sky_ingot"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)蒼天鋼$()を乞う際、供物として$(item)穢金$()を用いれば、より多くの収穫を得ることができるだろう。",
+            "recipe": "naturesaura:sky_ingot_from_gold"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)喜びの証$()を捧げ、より強力な$(item)至福の証$()へと昇華させる。",
+            "recipe": "naturesaura:token_euphoria"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)恐れの証$()を捧げ、より強力な$(item)戦慄の証$()へと昇華させる。",
+            "recipe": "naturesaura:token_terror",
+            "anchor": "terror"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)怒りの証$()を捧げ、より強力な$(item)憤怒の証$()へと昇華させる。",
+            "recipe": "naturesaura:token_rage"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(item)悲しみの証$()を捧げ、より強力な$(item)嘆きの証$()へと昇華させる。",
+            "recipe": "naturesaura:token_grief"
+        }
+    ]
+}

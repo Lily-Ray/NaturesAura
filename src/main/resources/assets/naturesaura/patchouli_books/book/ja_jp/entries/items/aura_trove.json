@@ -1,0 +1,17 @@
+{
+    "name": "霊気宝蔵器",
+    "icon": "naturesaura:aura_trove",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "必要となる$(2)霊気$()の量が増え、$(l:items/aura_cache)霊気貯蔵器$()では頻繁な充填に追われるようになったなら、この$(item)霊気宝蔵器$()が助けとなるだろう。これは$(item)霊気貯蔵器$()の上位版にあたる器であり、その3倍もの貯蔵容量を誇る。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)霊気宝蔵器$()の作成",
+            "recipe": "naturesaura:aura_trove"
+        }
+    ]
+}

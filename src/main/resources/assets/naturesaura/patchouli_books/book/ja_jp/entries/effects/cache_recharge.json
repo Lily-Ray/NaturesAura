@@ -1,0 +1,17 @@
+{
+    "name": "満ちゆく霊気",
+    "icon": "naturesaura:aura_cache",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "領域内の$(2)霊気$()が十分に満たされ、$(l:items/eye)環境の眼$()の目盛りが定常値を半分ほど上回るようになると、$(item)満ちゆく霊気$()の現象が起こり始める。霊気が飽和した領域に留まる探索者が$(l:items/aura_cache)霊気貯蔵器$()を所持していれば、過剰な$(2)霊気$()がそこへと流れ込み、少しずつ$(thing)充填$()されていくのだ。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:cache_powder",
+            "text": "この効果は、$(l:effects/effect_powder)無尽蔵の霊粉$()を用いることで抑制できる。"
+        }
+    ]
+}

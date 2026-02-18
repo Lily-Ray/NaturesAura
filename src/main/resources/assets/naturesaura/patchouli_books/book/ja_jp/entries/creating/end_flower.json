@@ -1,0 +1,18 @@
+{
+    "name": "忘却の薔薇",
+    "icon": "naturesaura:end_flower",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:end_flower",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)エンダードラゴン$()が、畏怖すべき獣であることは周知の事実だ。それは誰よりも堅牢に$(thing)ジ・エンド$()を守護しているが、打ち倒すことは可能である。龍を討てば、その末裔の証や多大なる名誉が得られるだけでなく、$(item)忘却の薔薇$()もまた、その姿を現す。龍の死の間際、エンドの本島にはこの花が芽吹き、植物学者が採集して持ち帰るのを待つことになるのだ。"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:end_flower",
+            "text": "この花は極めて膨大な量の$(2)霊気$()を蓄えており、特筆すべき方法でそれを収穫できる。$(item)エンダーアイ$()を花の近くに落とすと、薔薇はそれを食らい、周囲の環境へと$(2)霊気$()を放出し始めるのだ。この過程にある間は、放出を止めることも、花自体を回収することもできない。なお、このプロセスには$(l:creating/generator_limit_remover)創造の触媒$()を必要と$(italic)しない$()点には留意が必要だ。",
+            "link_recipe": true
+        }
+    ]
+}

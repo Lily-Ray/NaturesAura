@@ -1,0 +1,21 @@
+{
+    "name": "窮地の指輪",
+    "icon": "naturesaura:death_ring",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "いわゆる「絶体絶命」の状況に陥ったとき、なす術はなく、時として$(thing)死$()は必然として受け入れざるを得ない現象であった。$(p)だが、それは魔法植物学者たちが指輪という簡素な道具で$(thing)死そのもの$()を$(thing)回避$()できると悟るまでの話だ。この$(item)窮地の指輪$()をインベントリのどこかに保持しておけば、"
+        },
+        {
+            "type": "text",
+            "text": "死に至るダメージを受けた瞬間に所有者を回復させ、自らが$(thing)消失$()することでその死を阻止する。その挙動は、かの$(item)不死のトーテム$()に近いと言えるだろう。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)窮地の指輪$()の作成$(p)$(italic)この指輪は、その指に完璧に馴染むだろう。",
+            "recipe": "naturesaura:death_ring"
+        }
+    ]
+}

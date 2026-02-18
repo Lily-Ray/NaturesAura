@@ -1,0 +1,17 @@
+{
+    "name": "エイルの証",
+    "icon": "naturesaura:break_prevention",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "最も必要としている時に愛用の$(thing)道具$()が壊れ、修理すら不可能となり、それまでのエンチャントの努力が水の泡となることほど不愉快なことはない。この問題を軽減するのが、$(item)エイルの証$()である。$(thing)金床$()を使用してこの証を道具に付与すれば、耐久値がゼロになっても道具が完全に破壊されることはなく、単に$(thing)機能が停止$()する状態に留めることができる。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(l:practices/tree_ritual)森林の儀式$()を用いた$(item)エイルの証$()の作成",
+            "recipe": "naturesaura:break_prevention"
+        }
+    ]
+}

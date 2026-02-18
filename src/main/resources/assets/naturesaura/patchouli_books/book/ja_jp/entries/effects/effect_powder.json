@@ -1,0 +1,17 @@
+{
+    "name": "効果の霊粉",
+    "icon": "naturesaura:effect_powder[naturesaura:effect_powder_data={'effect':'naturesaura:plant_boost'}]",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)効果の霊粉$()は、二つの役割を併せ持つ神秘的な物質である。一つは、現に発生している受動的な効果を$(thing)抑制$()すること。そしてもう一つは、特定の現象を発生させるための触媒、すなわち$(thing)創造$()の力を与えることだ。$(p)言うまでもなく、この霊粉が作用を及ぼすのは、肯定的な効果に対してのみである。"
+        },
+        {
+            "type": "text",
+            "text": "使用方法は至って単純だ。任意の数量の霊粉をまとめて地面に設置すれば、その種類に応じて効果の抑制、あるいは創造が始まる。効果が及ぶ$(thing)範囲$()は、設置した霊粉の数（スタック数）と同等のブロック数となる。また、地面にある霊粉を叩けば、即座にアイテムの形態へと戻すことが可能だ。$(p)各効果に対応する$(item)効果の霊粉$()が存在する場合、それぞれの項目にその製法が記されているはずだ。"
+        }
+    ]
+}

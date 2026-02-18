@@ -1,0 +1,17 @@
+{
+    "name": "ピリジャーの眼",
+    "icon": "naturesaura:outpost_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_overworld",
+    "pages": [
+        {
+            "type": "text",
+            "text": "世界に点在する様々な構造物を探す際、$(item)森林探検の地図$()などは非常に有用な手段となる。しかし、すべての構造物に対してこうした地図が存在するわけではない。特に$(thing)ピリジャーの前哨基地$()は、この手法では発見できないのだ。この問題を解決すべく、魔法植物学者たちは$(item)ピリジャー of the 眼$()を製作した。これを空中に放り投げれば、最も近くにある$(thing)ピリジャーの前哨基地$()へと飛んでいくだろう。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)ピリジャーの眼$()の作成",
+            "recipe": "naturesaura:outpost_finder"
+        }
+    ]
+}

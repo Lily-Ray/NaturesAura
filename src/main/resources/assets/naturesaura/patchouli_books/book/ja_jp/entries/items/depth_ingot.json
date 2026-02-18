@@ -1,0 +1,17 @@
+{
+    "name": "深淵鋼",
+    "icon": "naturesaura:depth_ingot",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "研究の開始から数年を経て、魔法植物学者たちはついに、新たな手法で$(2)霊気$()の力を制御し得る新素材を発見した。それは神秘的で捉えがたき素材、$(item)ネザライト$()である。これを用いれば、最も強力な素材の一つである$(item)深淵鋼$()を生み出すことができる。当然ながら、このインゴットは$(l:items/depth_armor)防具$()や$(l:items/depth_tools)道具$()へと加工することが可能だ。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)深淵鋼$()の作成",
+            "recipe": "naturesaura:depth_ingot_creation"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "醸造家の儀式",
+    "icon": "naturesaura:potion_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "灰は灰に、塵は塵に。それと同様の自然な変換は、$(2)霊気$()と、それと同等に神秘的な$(item)ポーション$()の間でも成立する。特に$(item)残留ポーション$()には、その効果を抽出して$(2)霊気$()へと効率的に変換することを可能にする、ある種の魔力が宿っているのだ。$(p)これを行うには、次ページに示す通りの$(item)残留吸引器$()を構築するだけでよい。"
+        },
+        {
+            "type": "text",
+            "text": "構築後、その至近距離に何らかの肯定的かつ持続的な効果を持つ$(item)残留ポーション$()を投げ入れれば、その効果は吸い込まれ、$(2)霊気$()へと変換される。言うまでもなく、その効果が強力で持続時間が長いほど、より多くの$(2)霊気$()が生成されるのだ。$(br)ただし、一度に変換できる効果は一つのみである点に注意せよ。一度に複数のポーションを儀式に投じても、その力は無駄に霧散してしまうだろう。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:potion_generator",
+            "text": "中心に$(item)残留吸引器$()を据えた$(item)醸造家の儀式$()の構築"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:potion_generator",
+            "text": "$(item)残留吸引器$()の作成"
+        }
+    ]
+}

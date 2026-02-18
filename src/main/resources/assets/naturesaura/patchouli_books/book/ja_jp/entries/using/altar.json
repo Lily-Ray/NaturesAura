@@ -1,0 +1,48 @@
+{
+    "name": "自然の祭壇",
+    "icon": "naturesaura:nature_altar",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_overworld",
+    "priority": true,
+    "turnin": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "初期段階において、$(2)霊気$()を収集するための未熟ながらも効果的な手段が、この$(item)自然の祭壇$()である。次ページに示す構成を構築すると、祭壇は周囲の$(2)霊気$()をゆっくりと吸収し始める。ただし、この祭壇には大きな負荷を与えるほどの力はなく、その地域の$(2)霊気$()が底を突くまでしか吸収を行うことはできない。$(br)こうして蓄積された$(2)霊気$()の用途については、次ページ以降で解説する。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:altar",
+            "text": "$(item)自然の祭壇$()の組み立て方"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(l:practices/tree_ritual)森林の儀式$()を用いた$(item)自然の祭壇$()の作成",
+            "recipe": "naturesaura:nature_altar"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:gold_brick",
+            "text": "$(item)自然の祭壇$()のマルチブロックに使用する、$(item)黄金の石煉瓦$()の作成。同様の手法で、$(item)黄金のネザー煉瓦$()を作成することも可能だ。"
+        },
+        {
+            "type": "text",
+            "text": "$(item)自然の祭壇$()に十分な量の$(2)霊気$()が蓄積されると、特定の素材で作られたアイテムにその力を注ぎ込むことが可能となる。その手順は、祭壇の上に素材を置き、注入が完了するのを待つだけという至ってシンプルなものだ。"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)霊鉄$()の作成。これは$(2)霊気$()の加護を受けた素材であり、多種多様な魔術的な$(thing)自然の道具$()の材料となる。$(br)なお、インゴットの状態だけでなく、ブロックの状態であっても同様の注入が可能だ。",
+            "recipe": "naturesaura:infused_iron"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)穢金$()の作成。これは$(2)霊気$()のより深く、澱んだ側面を宿した素材だ。注入には非常に長い時間を要するが、その過程で消費される$(2)霊気$()の量は少なくて済む。$(br)なお、インゴットの状態だけでなく、ブロックの状態であっても同様の注入が可能だ。",
+            "recipe": "naturesaura:tainted_gold"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)霊岩$()の作成。これは$(2)霊気$()を注ぎ込まれた、大地の特性を宿す素材だ。",
+            "recipe": "naturesaura:infused_stone"
+        }
+    ]
+}

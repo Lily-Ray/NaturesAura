@@ -1,0 +1,21 @@
+{
+    "name": "飛翔の受け手",
+    "icon": "naturesaura:projectile_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "放たれた$(thing)飛翔体$()の威力は、時に生命を貫き、転送の力によって対象を移動させるほどの強大なものとなる。だが、この力は$(2)霊気$()を生み出すためにも転用可能だ。$(item)飛翔の受け手$()は、自身に放たれたあらゆる飛翔体のエネルギーを吸収し、周囲へと拡散する$(2)霊気$()へと変換するのである。"
+        },
+        {
+            "type": "text",
+            "text": "飛翔体の種類によって生み出される量は一様ではない。$(item)雪玉$()に宿るエネルギーは、$(item)エンダーパール$()などに比べれば極めて微々たるものだ。$(p)しかし、運用には一つの制約が存在する。飛翔体は四方の面に対し、北面を皮切りとして$(thing)特定の順序$()で命中させなければならないのだ。活性化していない面に飛翔体が当たっても、$(2)霊気$()が生成されることはない。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:projectile_generator",
+            "text": "$(item)飛翔の受け手$()の作成"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "name": "変換の触媒",
+    "icon": "naturesaura:conversion_catalyst",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:using/altar)自然の祭壇$()は、特定のアイテムに$(2)霊気$()を注入するだけでなく、ある種のアイテムを別の種類へと変質させる、いわゆる$(thing)変換$()を補助する機能も持っている。$(br)これを行うには、$(item)変換の触媒$()を作成し、祭壇の周囲にある4つの下層の$(item)黄金の石煉瓦$()のいずれかの上に設置した上で、通常通り祭壇に材料を置けばよい。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(l:practices/tree_ritual)森林の儀式$()を用いた$(item)変換の触媒$()の作成",
+            "recipe": "naturesaura:conversion_catalyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "果ての世界（ジ・エンド）の$(2)霊気$()を用いた$(item)ドラゴンブレス$()の精製",
+            "recipe": "naturesaura:breath"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "ゾンビの遺骸から$(item)革$()を浄化する",
+            "recipe": "naturesaura:leather"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "現世の砂から$(item)ソウルサンド$()を錬成する",
+            "recipe": "naturesaura:soul_sand"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "ネザーの胞子から$(item)ネザーウォート$()を生成する",
+            "recipe": "naturesaura:nether_wart"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "ネザーの鉱石から$(item)プリズマリンの欠片$()を抽出する",
+            "recipe": "naturesaura:prismarine"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "空の$(item)瓶$()の中に$(thing)水$()を蓄積させる",
+            "recipe": "naturesaura:water"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)木炭$()を$(item)石炭$()へと変質させる",
+            "recipe": "naturesaura:coal"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)光の矢$()を生成する",
+            "recipe": "naturesaura:arrow"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)コーラスの花$()を創造する",
+            "recipe": "naturesaura:chorus"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)発酵したクモの目$()を錬成する",
+            "recipe": "naturesaura:fermented"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)リード$()を創造する",
+            "recipe": "naturesaura:lead"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)青くなったジャガイモ$()を浄化する",
+            "recipe": "naturesaura:potato"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)プリズマリンクリスタル$()を創造する",
+            "recipe": "naturesaura:prismarine_crystal"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)ウサギの足$()を創造する",
+            "recipe": "naturesaura:rabbit_foot"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)煌めくブラックストーン$()を錬成する",
+            "recipe": "naturesaura:gilded_blackstone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)真紅のキノコ$()を創造する",
+            "recipe": "naturesaura:crimson_fungus"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)歪んだキノコ$()を創造する",
+            "recipe": "naturesaura:warped_fungus"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)リンゴ$()を$(item)卵$()へと変容させる",
+            "recipe": "naturesaura:egg"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)水$()を$(item)ミルク$()へと変容させる$(p)$(italic)かつての聖者が、水をワインに変えたように。$()",
+            "recipe": "naturesaura:milk"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)アメジストの欠片$()を$(item)エンダーパール$()へと変質させる",
+            "recipe": "naturesaura:ender_pearl"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "$(item)ソウルソイル$()から$(item)ガストの涙$()を錬成する",
+            "recipe": "naturesaura:ghast_tear"
+        }
+    ]
+}

@@ -1,0 +1,214 @@
+{
+    "name": "誕生の祭壇",
+    "icon": "naturesaura:animal_spawner",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "特定の生命体を$(thing)創造$()することは、少々凄惨な趣味を持つ植物学者にとって、時に有用な試みとなる。そのために利用されるのが、この$(item)誕生の祭壇$()だ。対象となる生物に関連したいくつかの材料と、環境中のわずかな$(2)霊気$()を代償に、ほぼあらゆる$(thing)生命体$()を創り出し、召喚することができる。"
+        },
+        {
+            "type": "text",
+            "text": "祭壇を稼動させるには、適切な構造体を構築した上で、$(item)誕生の霊魂$()を用いる必要がある。手順は以下の通りだ。$(item)誕生の霊魂$()を含むすべての材料を$(item)誕生の祭壇$()の近くの地面に投げ入れれば、創造のプロセスが自動的に開始される。$(br)続くページでは、祭壇の建築方法や$(item)誕生 de 霊魂$()の入手手段、そして創造可能なあらゆる生命体について詳述する。"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:birth_spirit",
+            "link_recipe": true,
+            "text": "必要な$(item)誕生の霊魂$()は、周囲に（わずかでも）過剰な$(2)霊気$()が存在する場所で、二体の友好生物を$(thing)繁殖$()させることで容易に入手できる。新たな命が産み落とされるたびに、その過程でいくつかの$(item)誕生の霊魂$()が生成される可能性があるのだ。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:animal_spawner",
+            "text": "$(item)誕生の祭壇$()の作成"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:animal_spawner",
+            "text": "祭壇を正常に機能させるには、$(item)誕生の祭壇$()の周囲にこの構造体を構築する必要がある。"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:cow"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:sheep_white",
+            "text": "使用する$(item)羊毛$()の色によって、生成される$(thing)羊$()の色が決定される。"
+
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:chicken"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:pig"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:blaze"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:ghast"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:ocelot"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:mule"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:bat"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:endermite"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:parrot"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:slime"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:spider"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:skeleton"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:enderman"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:silverfish"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:squid"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:stray"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:shulker"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:husk"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:llama"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:rabbit"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:magma_cube"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:zombified_piglin"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:polar_bear"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:mooshroom"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:guardian"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:horse"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:donkey"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:cave_spider"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:creeper"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:witch"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:wither_skeleton"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:wolf"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:zombie"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:bee"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:dolphin"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:fox"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:panda"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:turtle"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:phantom"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:cat"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:piglin"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:piglin_brute"
+        },
+        {
+            "type": "naturesaura:animal_spawner",
+            "recipe": "naturesaura:hoglin"
+        }
+    ]
+}

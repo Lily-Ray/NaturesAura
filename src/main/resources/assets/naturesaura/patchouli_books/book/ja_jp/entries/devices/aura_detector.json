@@ -1,0 +1,17 @@
+{
+    "name": "霊気計測器",
+    "icon": "naturesaura:aura_detector",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)霊気$()を扱う際、その場に赴かずとも領域内の霊気量を知ることができれば、非常に有益な場合がある。$(item)霊気計測器$()は、側面に$(item)コンパレーター$()を接続している限り、至近距離に存在する$(2)霊気$()の量に基づいた$(thing)レッドストーン信号$()を出力する。その表示範囲は、$(l:items/eye)環境の眼$()が示すものと概ね同様である。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)霊気計測器$()の作成",
+            "recipe": "naturesaura:aura_detector"
+        }
+    ]
+}

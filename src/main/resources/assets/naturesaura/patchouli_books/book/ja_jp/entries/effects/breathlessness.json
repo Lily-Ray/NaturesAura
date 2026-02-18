@@ -1,0 +1,12 @@
+{
+    "name": "虚無の窒息",
+    "icon": "minecraft:white_wool",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "領域から$(2)霊気$()が失われることは、周囲の植物のみならず、呼吸のために$(item)酸素$()を必要とする生物にも深刻な影響を及ぼす。それらの生物は、$(2)霊気$()が枯渇するほどに呼吸が困難になることを身を以て知るだろう。肺には不定期に鋭い痛みが走り、生命を維持するための自然治癒力すらも著しく損なわれていくのだ。"
+        }
+    ]
+}

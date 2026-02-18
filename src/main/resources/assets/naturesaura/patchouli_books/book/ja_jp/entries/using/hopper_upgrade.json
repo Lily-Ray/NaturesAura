@@ -1,0 +1,17 @@
+{
+    "name": "ホッパー拡張器",
+    "icon": "naturesaura:hopper_upgrade",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)ホッパー$()を用いたアイテム回収は便利だが、広範囲に散らばったアイテムを回収しなければならない場合には不向きなこともある。そんな時に役立つのが、この$(item)ホッパー拡張器$()だ。任意の$(item)ホッパー$()の真上に設置するだけで、アイテムを吸い込む範囲を約$(thing)7$()ブロック分も劇的に広げてくれる。$(br)なお、アイテムを回収する際には、代償としてわずかな量の$(2)霊気$()を消費する。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)ホッパー拡張器$()の作成",
+            "recipe": "naturesaura:hopper_upgrade"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "霊粉の散布機",
+    "icon": "naturesaura:powder_placer",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:effects/effect_powder)効果の霊粉$()を用いることは、特定の$(thing)霊気の不均衡$()による現象を抑制、あるいは発生させようとする際に極めて有効である。$(item)霊粉の散布機$()はこの工程を大いに助けてくれるだろう。装置のいずれかの側面にチェストを置き、その中に$(item)効果の霊粉$()を納めておけば、$(thing)レッドストーンパルス$()を受け取った際、その粉末を世界へと自動的に散布するのである。"
+        },
+        {
+            "type": "crafting",
+            "text": "同様に、再びパルスを入力すれば、装置の上に散布されていた粉末を再び回収し、隣接するチェストへと戻してくれるのだ。",
+            "recipe": "naturesaura:powder_placer"
+        }
+    ]
+}

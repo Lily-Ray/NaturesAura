@@ -1,0 +1,17 @@
+{
+    "name": "ブレイズの眼",
+    "icon": "naturesaura:fortress_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_nether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)要塞$()を探し出す際、$(item)エンダーアイ$()の能力を利用することができる。それを放り投げれば、最も近くにある構造物へとゆっくりと移動し、進むべき道を指し示してくれるはずだ。$(item)ブレイズの眼$()も同様の挙動を見せるが、探し出すのは要塞（ストロングホールド）ではなく、最も近くにある$(thing)ネザー要塞$()である。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)ブレイズの眼$()の作成",
+            "recipe": "naturesaura:fortress_finder"
+        }
+    ]
+}

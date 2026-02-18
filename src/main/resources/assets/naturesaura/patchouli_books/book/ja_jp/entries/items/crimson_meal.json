@@ -1,0 +1,21 @@
+{
+    "name": "真紅の骨粉",
+    "icon": "naturesaura:crimson_meal",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_nether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "通常、$(item)骨粉$()はその役割を十分に果たしてくれる。あらゆる植物の成長を劇的に早める肥料としてだ。しかし、こと$(thing)ネザー$()の領域においては、単純な骨粉ではあまり効果が期待できない。$(br)だが、この問題は$(item)真紅の骨粉$()を用いることで容易に解消できる。$(br)この粉末は、骨粉が通常の植物に対して行うのと同様に、$(item)ネザーウォート$()の成長を促進させるだけでなく、"
+        },
+        {
+            "type": "text",
+            "text": "完熟した$(item)ネザーウォート$()に使用すれば、巨大な$(thing)ネザーウォートのキノコ$()へと変貌させる。これを破壊して収穫することで、より多くの収穫物を得ることが可能となるのだ。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)真紅の骨粉$()の作成",
+            "recipe": "naturesaura:crimson_meal"
+        }
+    ]
+}

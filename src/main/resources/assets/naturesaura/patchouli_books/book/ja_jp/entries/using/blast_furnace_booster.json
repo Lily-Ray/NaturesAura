@@ -1,0 +1,21 @@
+{
+    "name": "精錬の補助器",
+    "icon": "naturesaura:blast_furnace_booster",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "村人の科学者たちが上位素材を用いて$(item)高炉$()を作り出す手法を発見して以来、魔法植物学者たちはその技術をさらに改良しようと試みてきた。その結果、$(2)霊気$()の力でいかなる$(thing)鉱石$()をも浄化し、本来なら一つのところを$(thing)二つのインゴット$()として精錬できる可能性を見出した。この$(item)精錬の補助器$()こそが、その研究の結晶である。"
+        },
+        {
+            "type": "text",
+            "text": "この機能は、$(item)高炉$()の真上に$(item)精錬の補助器$()を設置するだけで利用可能となる。$(p)$(thing)自動化$()の観点から特筆すべきは、$(item)ホッパー$()などの装置を用いて、$(item)精錬の補助器$()のいずれかの側面から鉱石を投入できる点だ。投入されたアイテムは、あたかも$(item)高炉$()の上面から直接供給されたかのように、適切に精錬スロットへと送られる。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)精錬の補助器$()の作成",
+            "recipe": "naturesaura:blast_furnace_booster"
+        }
+    ]
+}

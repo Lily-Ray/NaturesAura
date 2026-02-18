@@ -1,0 +1,18 @@
+{
+    "name": "霊気供給制限器",
+    "icon": "naturesaura:lower_limiter",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:vacuum_bottle",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "魔法植物学者なら誰もが知る通り、負の$(2)霊気$()不均衡による影響を引き起こすことは極めて危険だ。特に受動的に$(2)霊気$()を消費し続ける装置を使用する際には、その危険性が高まる。$(br)このような事態に対し、$(item)霊気供給制限器$()は確かな保護を提供してくれる。この装置を$(2)霊気$()を消費するデバイスの隣に設置すれば、周囲の$(2)霊気$()量が低下しすぎた際、即座にそのデバイスの稼働を停止させることができるのだ。$(br)なお、この制限器自体の稼働にコストは一切かからない。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:lower_limiter",
+            "text": "$(item)霊気供給制限器$()の作成"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "激昂のアミュレット",
+    "icon": "naturesaura:shockwave_creator",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)激昂のアミュレット$()をインベントリのどこかに保持していれば、着用者は自らの力を集中させることができる。その場で$(thing)スニーク$()しながら$(thing)ジャンプ$()を行うと、地面を激しく踏みつけ、周囲のあらゆる生ける者にダメージを与える$(item)衝撃波$()を放つことが可能だ。$(br)当然ながら、これを行うには$(l:items/aura_cache)霊気貯蔵器$()などに蓄えられた一定量の$(2)霊気$()を代償として消費する。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)激昂のアミュレット$()の作成",
+            "recipe": "naturesaura:shockwave_creator"
+        }
+    ]
+}

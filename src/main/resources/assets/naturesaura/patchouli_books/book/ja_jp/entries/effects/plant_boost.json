@@ -1,0 +1,21 @@
+{
+    "name": "植物の急成長",
+    "icon": "minecraft:wheat_seeds",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "領域内の$(2)霊気$()が不安定になるほど高まると、その力は近傍の植生、特に$(item)小麦$()や$(item)ジャガイモ$()といった植物へと転移し始める。これにより、植物たちは爆発的な$(thing)急成長$()を見せるようになるが、同時に、その過程で領域内の$(2)霊気$()はわずかに減少していくのである。"
+        },
+        {
+            "type": "text",
+            "text": "このような現象は、$(l:items/eye)環境の眼$()の目盛りがおよそ4分の3を満たす頃に顕著となる。$(br)なお、この効果は$(thing)オーバーワールド$()においてのみ発生することが確認されている。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:plant_powder",
+            "text": "この効果は、$(l:effects/effect_powder)着実なる成長の霊粉$()を用いることで抑制できる。"
+        }
+    ]
+}

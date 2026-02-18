@@ -1,0 +1,17 @@
+{
+    "name": "神秘の拡大鏡",
+    "icon": "naturesaura:range_visualizer",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)神秘 of the 拡大鏡$()は、機械装置を扱う魔法植物学者にとって非常に$(t:Vazkii氏によるMod)気の利いた$()道具である。これをいずれかの手に持ち、対応する装置を右クリックすると、その$(thing)動作範囲$()が周囲に表示される。これにより、構築した仕掛けの点検を容易かつ正確に行うことが可能だ。範囲の表示を停止したい場合は、もう一度同じ装置を右クリックするだけでよい。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)神秘の拡大鏡$()の作成",
+            "recipe": "naturesaura:range_visualizer"
+        }
+    ]
+}

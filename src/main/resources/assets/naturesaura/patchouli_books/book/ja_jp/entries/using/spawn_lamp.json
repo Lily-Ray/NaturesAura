@@ -1,0 +1,17 @@
+{
+    "name": "安息の灯火",
+    "icon": "naturesaura:spawn_lamp",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)安息の灯火$()は、装飾品として優れているだけでなく、極めて有用な副次的機能も備えている。$(thing)レッドストーン信号$()を入力すると、周囲の明るさに関わらず、半径約48ブロック以内のあらゆる魔物の$(thing)出現を阻止する$()のだ。信号の強弱によってその有効範囲を調整できるが、魔物の出現を封じるたびに、代償としてわずかな$(2)霊気$()を消費する。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)安息の灯火$()の作成$(p)$(italic)学名：モブヨケ・ランタン$()",
+            "recipe": "naturesaura:spawn_lamp"
+        }
+    ]
+}

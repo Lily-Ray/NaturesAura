@@ -1,0 +1,13 @@
+{
+    "name": "装身具",
+    "icon": "minecraft:totem_of_undying",
+    "category": "naturesaura:intro",
+    "read_by_default": true,
+    "flag": "mod:baubles",
+    "pages": [
+        {
+            "type": "text",
+            "text": "膨大な数のブロックやアイテムがバックパックを埋め尽くし、$(thing)インベントリ$()の空き容量に困り果て、足取りが重くなることもあるだろう。$(br)一部の$(thing)自然由来のアイテム$()は、$(item)装身具$()として腕や腰、胸などに直接装着することが可能だ。アイテムにこの機能が備わっている場合、そのツールチップに装着可能な部位が表示される。"
+        }
+    ]
+}

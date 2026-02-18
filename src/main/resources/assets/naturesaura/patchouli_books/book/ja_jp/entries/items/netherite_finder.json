@@ -1,0 +1,21 @@
+{
+    "name": "古の知識の杖",
+    "icon": "naturesaura:netherite_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "近年の発見により、この世界のより暗き深淵に、極めて重要かつ埋もれた物質が存在することが明らかになった。――$(thing)古代の残骸$()である。この発見困難な素材は非常に堅牢で、採掘者にとって極めて有用だが、その希少ゆえに入手は困難を極める。$(item)古の知識の杖$()は、この問題を優雅な手法で解決してくれるのだ。"
+        },
+        {
+            "type": "text",
+            "text": "この杖を使用すれば、周囲にあるすべての$(thing)古代の残骸$()が強調表示され、約1分間、$(thing)他のブロックを透過して$()視認することが可能になる。この効果が持続している間であれば、素材を特定して採掘することは容易だろう。$(br)言うまでもなく、この探知には$(l:items/aura_cache)霊気貯蔵器$()などから大量の$(2)霊気$()を供給しなければならない。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)古の知識の杖$()の作成",
+            "recipe": "naturesaura:netherite_finder"
+        }
+    ]
+}

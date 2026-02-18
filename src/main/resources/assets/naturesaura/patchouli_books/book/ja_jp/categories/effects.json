@@ -1,0 +1,6 @@
+{
+    "name": "霊気の不均衡",
+    "description": "世界から$(2)霊気$()を枯渇させること、あるいは過剰に供給すること。それは$(thing)霊気の不均衡$()と呼ばれ、世界に恩恵と災厄の両面をもたらす。このカテゴリでは、その均衡の崩れが引き起こす様々な現象について詳述する。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/effects.png",
+    "sortnum": 20
+}

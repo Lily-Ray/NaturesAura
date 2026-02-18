@@ -1,0 +1,35 @@
+{
+    "name": "世界のレール",
+    "icon": "naturesaura:dimension_rail_nether",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)トロッコ$()はいかなる$(thing)ポータル$()をも通り抜ける能力を秘めているが、そのための仕掛けを構築するのは極めて困難な作業だ。$(item)世界のレール$()はその問題を容易に解決してくれる。このレールには、既知の各次元に対応した3つの種類が存在する。トロッコがその上を通過すると、霊気を消費して、指定された次元へと直接転送されるのだ。"
+        },
+        {
+            "type": "text",
+            "text": "トロッコが送られる$(thing)座標$()は、移動する次元の組み合わせに基づいて決定される。$(br)通常世界とネザー間を移動する場合、通常のポータルと同様に座標が8倍、あるいは8分の1へと計算されて転送される。$(br)通常世界とジ・エンド間を移動する場合、エンドへ向かう際は$(thing)黒曜石のプラットフォーム$()へ、通常世界へ戻る際はその世界のスポーン地点へと送られる仕組みだ。"
+        },
+        {
+            "type": "text",
+            "text": "いずれかのレールに対して$(l:items/range_visualizer)神秘の拡大鏡$()を使用すれば、転送先の次元における到着座標が強調表示される。この表示は$(thing)壁越し$()でも視認できるため、手間をかけずに目的地を特定することが可能だ。$(p)ただし、唯一の既知の注意点として、これらのレールには$(thing)生ける者$()が乗ったトロッコを転送するほどの出力は備わっていないようである。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)通常世界のレール$()の作成",
+            "recipe": "naturesaura:dimension_rail_overworld"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)ネザーのレール$()の作成",
+            "recipe": "naturesaura:dimension_rail_nether"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)ジ・エンドのレール$()の作成",
+            "recipe": "naturesaura:dimension_rail_end"
+        }
+    ]
+}

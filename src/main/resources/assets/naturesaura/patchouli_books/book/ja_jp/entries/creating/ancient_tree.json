@@ -1,0 +1,26 @@
+{
+    "name": "いにしえの樹木",
+    "icon": "naturesaura:ancient_leaves",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:wood_stand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "周囲の$(2)霊気$()を補充する最も基本的な手段は、$(item)いにしえの樹木$()を育てることだ。$(item)いにしえの苗木$()を作成して成長させると、通常の樹木と同じように育つが、その葉が周囲の$(2)霊気$()値をゆっくりと正常な状態まで回復させ始める。$(br)しかし、この過程で樹木自体は無事では済まない。葉に蓄えられた$(2)霊気$()が世界へと放出されるにつれ、葉は枯れ始め、十分な量が放出された後には、樹木は葉を失い剥き出しの状態となってしまう。"
+        },
+        {
+            "type": "text",
+            "text": "さらに注意すべき点として、この樹木はその色合いから、より地獄のような地域では格別に美しく見えるが、$(thing)オーバーワールド$()以外の領域では$(italic)機能しない$()ということだ。植物が適切に繁茂し、その力を発揮できるのは主世界だけだからである。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "$(l:practices/tree_ritual)森林の儀式$()を用いて、$(item)いにしえの苗木$()を作成する。",
+            "recipe": "naturesaura:ancient_sapling"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:ancient_planks",
+            "recipe2": "naturesaura:ancient_stick"
+        }
+    ]
+}

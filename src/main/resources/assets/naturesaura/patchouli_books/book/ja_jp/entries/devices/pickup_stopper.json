@@ -1,0 +1,17 @@
+{
+    "name": "吸着の鎮め石",
+    "icon": "naturesaura:pickup_stopper",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "多くの仕掛けにおいて、世界に$(thing)アイテム$()を落としておく必要があるが、それらは装置を点検する者の不用意な接触によって、容易に拾われてしまいかねない。$(br)$(item)吸着の鎮め石$()は、範囲内にあるアイテムを「隠密状態」の者以外には拾わせないようにする装置だ。その有効範囲は0から8ブロックにおよび、入力される$(thing)レッドストーン信号$()の強さに応じて相対的に決定される。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)吸着の鎮め石$()の作成",
+            "recipe": "naturesaura:pickup_stopper"
+        }
+    ]
+}

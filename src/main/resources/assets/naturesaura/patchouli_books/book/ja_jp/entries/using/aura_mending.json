@@ -1,0 +1,16 @@
+{
+    "name": "自然の修復",
+    "icon": "minecraft:enchanted_book",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:items/infused_iron_tools)霊鉄製の道具$()が持つ力を知れば、その能力の一部——特に霊気による$(thing)修復$()機能を、他の道具にも付与したいと願うのは当然の帰結である。$(item)自然の修復$()のエンチャントは、$(l:items/aura_cache)霊気貯蔵器$()などの霊気を蓄えたアイテムを所持している限り、あらゆる道具や防具に自己修復の能力を授けてくれる。"
+        },
+        {
+            "type": "text",
+            "text": "道具を修復するには、対象のアイテムを手にした状態で$(thing)スニーク$()を行うという追加の条件を満たさなければならない。$(p)なお、このエンチャントは極端に希少というわけではないが、出現率は、例えば$(item)ドロップ増加$()などと同程度であることは覚えておくとよいだろう。"
+        }
+    ]
+}

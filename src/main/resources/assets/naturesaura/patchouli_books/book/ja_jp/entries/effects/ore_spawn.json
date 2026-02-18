@@ -1,0 +1,21 @@
+{
+    "name": "鉱脈の聚成",
+    "icon": "minecraft:diamond_ore",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:creating/generator_limit_remover)創造の触媒$()を用いることで、$(l:items/eye)環境の眼$()の目盛りを遥かに超える水準まで$(2)霊気$()を高めることが可能となる。この卓越した力は、さらに高次の不均衡現象を引き起こす――周囲に$(l:effects/effect_powder)豊饒なる核の霊粉$()が散布されていれば、$(item)鉱脈の聚成$()が始まりを告げるのだ。"
+        },
+        {
+            "type": "text",
+            "text": "現世の$(item)石$()、あるいはネザーの$(item)ネザーラック$()において、様々な希少度の$(thing)鉱石$()がその姿を現し始める。当然ながら、これらの鉱石が具現化する際には、極めて膨大な量の自然な$(2)霊気$()が消費されることになる。$(p)言うまでもなく、この創造の力は自動化に転用可能だ。例えば$(l:using/field_creator)霊気力場形成器$()のような装置と組み合わせれば、真価を発揮するだろう。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:ore_spawn_powder",
+            "text": "$(l:effects/effect_powder)豊饒なる核の霊粉$()の作成"
+        }
+    ]
+}

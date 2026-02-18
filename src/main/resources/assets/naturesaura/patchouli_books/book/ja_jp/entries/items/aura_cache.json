@@ -1,0 +1,18 @@
+{
+    "name": "霊気貯蔵器",
+    "icon": "naturesaura:aura_cache",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(2)霊気$()を蓄積する$(l:collecting/altar)自然の祭壇$()が身近にあるのは素晴らしいことだが、それを持ち運ぶことができればより便利だろう。そんな時に役立つのが、この$(item)霊気貯蔵器$()だ。これにはかなりの量の$(2)霊気$()を貯蔵でき、外出先での利用が可能になる。$(br)貯蔵器を充填するには、$(item)自然の祭壇$()の上に置き、$(2)霊気$()が流れ込むのを待つだけでよい。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)霊気貯蔵器$()の作成",
+            "recipe": "naturesaura:aura_cache"
+        }
+    ]
+}

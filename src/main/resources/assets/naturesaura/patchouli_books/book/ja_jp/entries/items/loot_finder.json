@@ -1,0 +1,21 @@
+{
+    "name": "富の杖",
+    "icon": "naturesaura:loot_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "世界中には、物資が詰め込まれた$(item)チェスト$()や$(item)チェスト付きトロッコ$()など、多種多様な$(thing)財宝$()が眠っている。$(p)$(item)富の杖$()は、これら隠された富を暴き出し、容易に発見できるようにする能力を持つ。杖を振るえば、周囲約64ブロック以内にあるすべてのストレージを約1分間$(thing)強調表示$()してくれるのだ。"
+        },
+        {
+            "type": "text",
+            "text": "これだけの時間があれば、魔法によって可視化された場所まで移動し、財宝を回収するには十分だろう。$(p)当然ながら、この杖で富を探知し続けるには、$(l:items/aura_cache)霊気貯蔵器$()などにある程度の量の$(2)霊気$()を蓄えておく必要がある。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)富の杖$()の作成",
+            "recipe": "naturesaura:loot_finder"
+        }
+    ]
+}

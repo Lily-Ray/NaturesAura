@@ -1,0 +1,26 @@
+{
+    "name": "移ろう日時計",
+    "icon": "naturesaura:time_changer",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "建築や魔物狩りといった特定の活動は、決まった時間帯にしか行えないことが多い。長年にわたり、魔法植物学者たちは己の目的のために$(thing)時$()そのものを操る術を模索してきた。この$(item)移ろう日時計$()は、まさにその願望を叶える装置である。設置には相応の対価を要するが、昼夜を問わず$(thing)あらゆる時間$()へと容易に時を進める能力を秘めている。"
+        },
+        {
+            "type": "text",
+            "text": "日時計を機能させるには、装置に$(item)額縁$()を貼り付け、その中に$(item)時の針$()を納めるだけでよい。額縁内での針の$(thing)回転$()具合がスキップ先の時刻を決定し、針が真上を向いている状態が深夜に対応する。時を飛ばすには、日時計のすぐ近くにバニラの$(item)時計$()をドロップする必要がある。$(br)当然ながら、これには膨大な量の$(2)霊気$()を消費する。スキップする時間が長いほど、その消費量も増加する点には注意が必要だ。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)移ろう日時計$()の作成",
+            "recipe": "naturesaura:time_changer"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "$(l:practices/offering)神々への供物$()の儀式による$(item)時の針$()の召喚",
+            "recipe": "naturesaura:clock_hand"
+        }
+    ]
+}

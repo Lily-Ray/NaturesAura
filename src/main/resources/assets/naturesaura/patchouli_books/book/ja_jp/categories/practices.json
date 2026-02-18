@@ -1,0 +1,6 @@
+{
+    "name": "自然の魔導技法",
+    "description": "$(2)霊気$()に関わりながらも、必ずしもその収集や貯蔵に直結しない、別の技法が存在する。それらは長期的に見れば、探索者にとって大きな恩恵をもたらすはずだ。このカテゴリでは、どのような技法が存在し、いかにしてそれを行使すべきかについての知見を供する。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/practices.png",
+    "sortnum": 5
+}

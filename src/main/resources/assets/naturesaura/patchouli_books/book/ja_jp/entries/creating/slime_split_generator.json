@@ -1,0 +1,21 @@
+{
+    "name": "分核の観測器",
+    "icon": "naturesaura:slime_split_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)スライム$()や$(thing)マグマキューブ$()は奇妙な生物だ。十分な痛手を負うと、まるで体内の細胞が分裂するかのように、自身をより小さな個体へと$(thing)分裂$()させる性質を持つ。$(item)分核の観測器$()はこの自然な理を利用するものだ。至近距離でこれらの生物が分裂した際、そこに生じるエントロピーを吸い込み、周囲へと広がる$(2)霊気$()へと変換するのである。"
+        },
+        {
+            "type": "text",
+            "text": "言うまでもなく、生成される$(2)霊気$()の量はその生物の$(thing)大きさ$()と$(thing)希少性$()に基づいている。$(br)また、$(item)分核の観測器$()が$(2)霊気$()を放出している最中に、別の生物を分裂させても、追加の$(2)霊気$()は生成されないという点にも注意が必要だ。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:slime_split_generator",
+            "text": "$(item)分核の観測器$()の作成"
+        }
+    ]
+}

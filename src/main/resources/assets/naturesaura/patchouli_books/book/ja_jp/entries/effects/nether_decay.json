@@ -1,0 +1,12 @@
+{
+    "name": "真紅の腐朽",
+    "icon": "minecraft:soul_sand",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "判明したことだが、$(l:effects/decay)自然の腐朽$()の影響はある種、$(thing)ネザー$()にも及ぶ。$(2)霊気$()の水準が極限まで低下すると、$(item)ネザーラック$()を始めとする地殻もまた$(thing)腐朽$()し始めるのだ。まず$(item)ソウルソイル$()へと変貌し、次いで$(item)ソウルサンド$()へと形を変える。それは免れぬ崩壊であり、やがてその領域の踏破を極めて困難なものとするだろう。さらに、至る所で不気味な$(thing)発火$()現象が散発し始めるのだ。"
+        }
+    ]
+}

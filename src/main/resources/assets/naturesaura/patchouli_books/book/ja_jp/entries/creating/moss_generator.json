@@ -1,0 +1,17 @@
+{
+    "name": "湿地の苔削ぎ",
+    "icon": "naturesaura:moss_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "あらゆる苔むしたブロックに付着している$(thing)苔$()は、自然な$(2)霊気$()の優れた供給源となる。この特性を利用するために考案されたのが、$(item)湿地の苔削ぎ$()だ。この装置は周囲にある苔に覆われたブロックから、苔だけを綺麗に剥ぎ取り、元の清浄なブロックへと戻してしまう。この工程が行われるたびに、少量の$(2)霊気$()が生成され、周囲へと拡散していくのだ。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:moss_generator",
+            "text": "$(item)湿地の苔削ぎ$()の作成"
+        }
+    ]
+}

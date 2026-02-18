@@ -1,0 +1,52 @@
+{
+    "name": "森林の儀式",
+    "icon": "naturesaura:wood_stand",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:gold_leaf",
+    "priority": true,
+    "turnin": "naturesaura:wood_stand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "魔法植物学者としての歩みを始める際、$(2)霊気$()そのものを深く探求する前に、より直接的な形で自然の力を利用することは有益である。$(item)森林の儀式$()は、$(l:practices/gold_trees)金輝粉$()の特性を利用し、自然の素材が持つ力を成長したばかりの若木へと直接注ぎ込む。その過程で木は消費されてしまうが、同時に有用な道具や素材へと変貌を遂げるのだ。"
+        },
+        {
+            "type": "text",
+            "text": "この$(thing)儀式$()を執り行うには、次ページに示す構成で$(item)金輝粉$()を設置し、その周囲に素材を置くための$(item)木の台座$()を配置しなければならない。$(br)その後、中央に適切な$(item)苗木$()を植える。肥料を用いるか、あるいは時の流れに身を任せて苗木を成長させれば、それを合図に儀式が開始される。$(br)なお、儀式の内容ごとに$(bold)特定の種類の苗木$()が要求されるため、細心の注意を払う必要がある。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:tree_ritual",
+            "text": "$(item)森林の儀式$()の準備。すべての$(item)木の台座$()を配置する必要はない。"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)木の台座$()の作成",
+            "recipe": "naturesaura:wood_stand"
+        },
+        {
+            "type": "text",
+            "text": "この儀式を通じて、$(item)証$()に関する知識を得ることができる。これらは主要な感情を描いた木製の彫像であり、それぞれの象徴を注ぎ込まれた樹木から作り出される。これらの彫像には、広大な$(2)霊気$()そのものの力と、それが表す感情の力が結びついているのだ。$(p)今後、これらの$(item)証$()は、さらなる作成における重要な鍵となるだろう。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_joy",
+            "text": "$(item)喜びの証$()の作成。これには自然の中での発見、探検、そして美しさといった、喜びを呼び起こす品々を注ぎ込む必要がある。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_fear",
+            "text": "$(item)恐れの証$()の作成。これには儚さや無常を象徴する品々、あるいは落下を連想させる品々を注ぎ込む必要がある。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_anger",
+            "text": "$(item)怒りの証$()の作成。これには爆発性、火炎、そして暗黒といった、不穏な構成要素を注ぎ込む必要がある。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_sorrow",
+            "text": "$(item)悲しみの証$()の作成。これには涙、脆弱さ、そして死を象徴する品々を注ぎ込む必要がある。"
+        }
+    ]
+}

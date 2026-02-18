@@ -1,0 +1,6 @@
+{
+    "name": "霊気の活用",
+    "description": "世界から$(2)霊気$()を集めた時、いかなる人間であれ本能的に抱く疑問がある。それは$(italic)「この力をいかにして役立てるべきか？」$()という問いだ。このカテゴリでは、その問いに対する答えとなる、力の具体的な運用方法について詳述していく。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/using.png",
+    "sortnum": 15
+}

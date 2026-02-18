@@ -1,0 +1,12 @@
+{
+    "name": "自然の腐朽",
+    "icon": "naturesaura:decayed_leaves",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "領域から$(2)霊気$()を吸い尽くし、植物が自らを維持するための自然エネルギーを失うまでに至ると、$(thing)自然の腐朽$()が始まりを告げる。あらゆる$(item)草$()は朽ち果て、樹木の$(item)葉$()や他の植物も同様にその命を散らすだろう。領域から失われた$(2)霊気$()が多ければ多いほど、この現象はより凄惨なものとなっていく。$(br)なお、この現象が観測されるのは、$(thing)オーバーワールド$()と$(thing)ネザー$()に限られるようだ。"
+        }
+    ]
+}
